@@ -24,12 +24,12 @@ export default function Home() {
 
           <h5>Uganda</h5>
 
-          <h3>Sunny</h3>
+          <h3>Rainy</h3>
 
           <img src="" alt="" />
 
           <div>
-            <p>50</p>
+            <p>17</p>
           </div>
         </div>
         <div className=" grid justify-self-center place-content-center w-96 min-h-[40rem] bg-yellow-400 text-white rounded-lg">
