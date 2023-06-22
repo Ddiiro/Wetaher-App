@@ -1,7 +1,9 @@
+import Image from 'next/image'
+
 export default function Home() {
   return (
     <div className=" grid justify-items-stretch">
-      <nav className="flex p-8 place-content-between h-60 text-white">
+      <nav className="flex p-8 place-content-between h-24 text-white">
 
         <div>
           <h1 className="text-3xl">
@@ -19,43 +21,62 @@ export default function Home() {
     </nav>
 
     <div className="flex gap-20 justify-self-center justify-items-stretch">
-        <div className=" grid justtify-self-start place-content-center w-96 min-h-[40rem] bg-cyan-300 text-white rounded-lg">
-          <h2 className="text-xl">Kampala</h2>
+        <div className=" grid justtify-self-start place-content-center w-96 
+        justify-items-stretch min-h-[20rem] bg-cyan-300 text-white rounded-lg m-0">
+          <h2 className="text-2xl">Kampala</h2>
 
           <h5>Uganda</h5>
 
-          <h3>Rainy</h3>
+          <h3 className="text-4xl">Rainy</h3>
 
-          <img src="" alt="" />
+          <Image
+            src="/rainy.png"
+            className='rounded-lg'
+            width={350}
+            height={450}
+            alt="rainy season"
+          />
 
           <div>
             <p>17</p>
           </div>
         </div>
-        <div className=" grid justify-self-center place-content-center w-96 min-h-[40rem] bg-yellow-400 text-white rounded-lg">
-          <h2 className="text-xl">Nairobi</h2>
+        <div className=" grid justify-self-center place-content-center w-96 min-h-[40rem] bg-rose-600 text-white rounded-lg">
+          <h2 className="text-2xl">Nairobi</h2>
 
           <h5>Kenya</h5>
 
-          <h3>Sunny</h3>
+          <h3 className="text-4xl">Winter</h3>
 
-          <img src="" alt="" />
+          <Image
+            src="/snow.png"
+            className='rounded-lg'
+            width={350}
+            height={450}
+            alt="winter season"
+          />
 
           <div>
-            <p>50</p>
+            <p>-2</p>
           </div>
         </div>
-        <div className=" grid justify-self-end place-content-center w-96 min-h-[40rem] bg-rose-600 text-white rounded-lg">
-          <h2 className="text-xl">Cairo</h2>
+        <div className=" grid justify-self-end place-content-center w-96 min-h-[40rem] bg-yellow-600 text-white rounded-lg">
+          <h2 className="text-2xl">Cairo</h2>
 
           <h5>Egypt</h5>
 
-          <h3>Sunny</h3>
+          <h3 className="text-4xl">Sunny</h3>
 
-          <img src="" alt="" />
+          <Image
+            src="/sun.png"
+            className='rounded-lg'
+            width={350}
+            height={450}
+            alt="Sunny season"
+          />
 
           <div>
-            <p>50</p>
+            <p>32</p>
           </div>
         </div>
     </div>
