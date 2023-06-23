@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -13,9 +14,9 @@ export default function Home() {
       
         <div className="place-content-between h-48 text-white">
           <ul className=" flex gap-8 text-xl">
-            <li className='group/item hover:bg-rose-600 p-1 rounded-lg'>Today</li>
-            <li className='group/item hover:bg-rose-600 p-1 rounded-lg'>This Week</li>
-            <li className='group/item hover:bg-rose-600 p-1 rounded-lg'>Next Week</li>
+            <li className='group/item hover:bg-rose-600 p-1 rounded-lg'><Link href="/about">Today</Link></li>
+            <li className='group/item hover:bg-rose-600 p-1 rounded-lg'><Link href="/about">This Week</Link></li>
+            <li className='group/item hover:bg-rose-600 p-1 rounded-lg'><Link href="/about">Next Week</Link></li>
           </ul>
         </div>
     </nav>
