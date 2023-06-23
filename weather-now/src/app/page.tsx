@@ -41,7 +41,7 @@ export default function Home() {
           <div>
             <p>17</p>
           </div>
-          <button className="rounded-full bg-slate-300">See more</button>
+          <button className="rounded-full bg-slate-300"><Link href="/about">See More</Link></button>
         </div>
         <div className=" grid justify-self-center place-content-center w-96 min-h-[40rem] bg-rose-600 text-white rounded-lg group/item hover:bg-slate-950">
           <h2 className="text-2xl">Nairobi</h2>
@@ -61,7 +61,7 @@ export default function Home() {
           <div>
             <p>-2</p>
           </div>
-          <button className="rounded-full bg-slate-300">See more</button>
+          <button className="rounded-full bg-slate-300"><Link href="/about">See More</Link></button>
         </div>
         <div className=" grid justify-self-end place-content-center w-96 min-h-[40rem] bg-yellow-600 text-white rounded-lg group/item hover:bg-slate-950">
           <h2 className="text-2xl">Cairo</h2>
@@ -81,7 +81,7 @@ export default function Home() {
           <div>
             <p>32</p>
           </div>
-          <button className="rounded-full bg-slate-300">See more</button>
+          <button className="rounded-full bg-slate-300"><Link href="/about">See More</Link></button>
         </div>
         
     </div>
