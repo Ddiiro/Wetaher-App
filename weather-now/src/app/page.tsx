@@ -12,10 +12,10 @@ export default function Home() {
         </div>
       
         <div className="place-content-between h-48 text-white">
-          <ul className=" flex gap-6 text-xl">
-            <li>Today</li>
-            <li>This Week</li>
-            <li>Next Week</li>
+          <ul className=" flex gap-8 text-xl">
+            <li className='group/item hover:bg-rose-600 p-1 rounded-lg'>Today</li>
+            <li className='group/item hover:bg-rose-600 p-1 rounded-lg'>This Week</li>
+            <li className='group/item hover:bg-rose-600 p-1 rounded-lg'>Next Week</li>
           </ul>
         </div>
     </nav>
