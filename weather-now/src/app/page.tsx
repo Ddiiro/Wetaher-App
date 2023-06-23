@@ -23,7 +23,7 @@ export default function Home() {
 
     <div className="flex gap-20 justify-self-center justify-items-stretch">
         <div className=" grid justtify-self-start place-content-center w-96 
-        justify-items-stretch min-h-[20rem] bg-cyan-300 text-white rounded-lg m-0 group/item hover:bg-slate-950">
+        justify-items-stretch min-h-[20rem] bg-cyan-300 text-white rounded-lg m-0">
           <h2 className="text-2xl">Kampala</h2>
 
           <h5>Uganda</h5>
@@ -41,9 +41,9 @@ export default function Home() {
           <div>
             <p>17</p>
           </div>
-          <button className="rounded-full bg-slate-300"><Link href="/about">See More</Link></button>
+          <button className="rounded-full justify-self-center p-2 bg-black w-1/2 hover:bg-cyan-400"><Link href="/about">See More</Link></button>
         </div>
-        <div className=" grid justify-self-center place-content-center w-96 min-h-[40rem] bg-rose-600 text-white rounded-lg group/item hover:bg-slate-950">
+        <div className=" grid justify-self-center place-content-center w-96 min-h-[40rem] bg-rose-600 text-white rounded-lg">
           <h2 className="text-2xl">Nairobi</h2>
 
           <h5>Kenya</h5>
@@ -61,9 +61,9 @@ export default function Home() {
           <div>
             <p>-2</p>
           </div>
-          <button className="rounded-full bg-slate-300"><Link href="/about">See More</Link></button>
+          <button className="rounded-full justify-self-center p-2 bg-black w-1/2 hover:bg-rose-400"><Link href="/about">See More</Link></button>
         </div>
-        <div className=" grid justify-self-end place-content-center w-96 min-h-[40rem] bg-yellow-600 text-white rounded-lg group/item hover:bg-slate-950">
+        <div className=" grid justify-self-end place-content-center w-96 min-h-[40rem] bg-yellow-600 text-white rounded-lg">
           <h2 className="text-2xl">Cairo</h2>
 
           <h5>Egypt</h5>
@@ -81,7 +81,7 @@ export default function Home() {
           <div>
             <p>32</p>
           </div>
-          <button className="rounded-full bg-slate-300"><Link href="/about">See More</Link></button>
+          <button className="rounded-full justify-self-center p-2 bg-black w-1/2 hover:bg-yellow-400"><Link href="/about">See More</Link></button>
         </div>
         
     </div>
