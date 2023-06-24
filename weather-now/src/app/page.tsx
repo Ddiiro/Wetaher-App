@@ -85,9 +85,9 @@ export default function Home() {
         </div>
         
     </div>
-    <footer className="border-t-2 mt-28 flex">
-      <p>Ddiiro</p>
-
+    <footer className="border-t-2 mt-28 flex text-white">
+      <p>Ddiiro Joseph</p>
+      <p> 2023</p>
     </footer>
     </div>
   )
