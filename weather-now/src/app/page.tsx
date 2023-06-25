@@ -14,8 +14,8 @@ export default function Home() {
       
         <div className="place-content-between h-48 text-white">
           <ul className=" flex gap-8 text-xl">
-            <li className='hover:border-2 p-1 rounded-lg'><Link href="/about">Today</Link></li>
-            <li className='hover:border-2 p-1 rounded-lg'><Link href="/about">This Week</Link></li>
+            <li className='hover:border-2 p-1 rounded-lg'><Link href="/">Today</Link></li>
+            <li className='hover:border-2 p-1 rounded-lg'><Link href="/thisWeek">This Week</Link></li>
             <li className='hover:border-2 p-1 rounded-lg'><Link href="/about">Next Week</Link></li>
           </ul>
         </div>
