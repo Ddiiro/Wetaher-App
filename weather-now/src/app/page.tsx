@@ -16,7 +16,7 @@ export default function Home() {
           <ul className=" flex gap-8 text-xl">
             <li className='hover:border-2 p-1 rounded-lg'><Link href="/">Today</Link></li>
             <li className='hover:border-2 p-1 rounded-lg'><Link href="/thisWeek">This Week</Link></li>
-            <li className='hover:border-2 p-1 rounded-lg'><Link href="/about">Next Week</Link></li>
+            <li className='hover:border-2 p-1 rounded-lg'><Link href="/nextWeek">Next Week</Link></li>
           </ul>
         </div>
     </nav>
