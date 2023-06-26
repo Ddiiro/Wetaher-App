@@ -6,11 +6,11 @@ async function getData() {
 
   return response.json()
 
-  console.log(response)
+  
 }
-
+console.log(getData())
 export default async  function Home() {
-  const data = await getData()
+  
   return (
     <div className=" grid justify-items-stretch">
       <nav className="flex p-8 place-content-between h-32 text-white">
@@ -34,7 +34,6 @@ export default async  function Home() {
         <div className=" grid justtify-self-start place-content-center w-96 
         justify-items-stretch min-h-[20rem] bg-cyan-300 text-white rounded-lg hover:border-4">
           <h2 className="text-2xl">Kampala</h2>
-          <h2>{data}</h2>
 
           <h5>Uganda</h5>
 
