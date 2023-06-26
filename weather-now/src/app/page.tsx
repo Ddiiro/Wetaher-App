@@ -1,7 +1,16 @@
 import Image from 'next/image'
 import Link from 'next/link'
 
-export default function Home() {
+async function getData() {
+  const response = await fetch("https://api.open-meteo.com/v1/forecast?latitude=52.52&longitude=13.41&current_weather=true&hourly=temperature_2m,relativehumidity_2m,windspeed_10m")
+
+  return response.json()
+
+  console.log(response)
+}
+
+export default async  function Home() {
+  const data = await getData()
   return (
     <div className=" grid justify-items-stretch">
       <nav className="flex p-8 place-content-between h-32 text-white">
@@ -25,6 +34,7 @@ export default function Home() {
         <div className=" grid justtify-self-start place-content-center w-96 
         justify-items-stretch min-h-[20rem] bg-cyan-300 text-white rounded-lg hover:border-4">
           <h2 className="text-2xl">Kampala</h2>
+          <h2>{data}</h2>
 
           <h5>Uganda</h5>
 
