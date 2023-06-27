@@ -18,13 +18,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${inter.className} bg-slate-800
       `}>
-        <Image
-        src='https://images.unsplash.com/photo-1534274988757-a28bf1a57c17?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80'
-        fill={true}
-        alt='weather image'
-        />
         {children}
-        
         </body>
     </html>
   )

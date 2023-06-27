@@ -12,7 +12,7 @@ console.log(getData())
 export default async  function Home() {
   
   return (
-    <div className=" grid justify-items-stretch">
+    <div className=" grid justify-items-stretch relative h-screen">
       <nav className="flex p-8 place-content-between h-32 text-white">
 
         <div>
