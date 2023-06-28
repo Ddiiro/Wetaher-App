@@ -13,6 +13,14 @@ export default async  function Home() {
   
   return (
     <div className=" grid justify-items-stretch relative h-screen">
+      <div className='absolute inset-0'>
+            <Image
+                src='https://images.unsplash.com/photo-1534274988757-a28bf1a57c17?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80'
+                fill={true}
+                alt='weather image'
+            />
+        </div>
+        <div className='relative z-10 h-96'>
       <nav className="flex p-8 place-content-between h-32 text-white">
 
         <div>
@@ -93,6 +101,7 @@ export default async  function Home() {
           <button className="rounded-full justify-self-center p-2 bg-black w-1/2 hover:bg-yellow-400"><Link href="/about">See More</Link></button>
         </div>
         
+    </div>
     </div>
     <footer className=" justify-self-center gap-4 border-t-2 mt-28 flex text-white">
       <p>Ddiiro Joseph</p>
